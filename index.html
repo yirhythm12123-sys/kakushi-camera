@@ -45,6 +45,7 @@
   color-scheme:dark;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html,body{height:100%}
 body{margin:0;background:var(--ink);color:var(--paper);font-family:var(--f-body);font-size:15px;line-height:1.6;-webkit-tap-highlight-color:transparent;overscroll-behavior:none}
 button,input,select,textarea{font:inherit;color:inherit}
@@ -542,7 +543,7 @@ h1,h2,h3{text-wrap:balance}
 "use strict";
 /* ================= 調整値（管理者マニュアル参照） ================= */
 const CONFIG = {
-  version: "1.2.0",
+  version: "1.2.1",
   procWidth: 320,
   defaultSensitivity: 6,
   persistFrames: 6,
